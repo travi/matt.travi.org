@@ -7,7 +7,7 @@ end
 Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
     # Run this command to build the site.
     t.jekyll_build = ->(dest_dir) {
-        Dir.chdir("cd src/") do
+        Dir.chdir("src") do
             run("bundle exec jekyll build --destination #{dest_dir}")
         end
     }

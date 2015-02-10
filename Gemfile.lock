@@ -134,7 +134,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
     rake (10.4.2)
-    rake-jekyll (1.0.2)
+    rake-jekyll (1.0.3)
       rake (~> 10.0)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)

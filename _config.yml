@@ -15,5 +15,7 @@ github_username:  travi
 
 # Build settings
 markdown: kramdown
+kramdown:
+    input: GFM
 sass:
     style: compressed

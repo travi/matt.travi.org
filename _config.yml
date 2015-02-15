@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 source: src
 baseurl: "/matt.travi.org" # the subpath of your site, e.g. /blog/
-url: "http://matt.travi.org" # the base hostname & protocol for your site
+url: "http://travi.github.io" # the base hostname & protocol for your site
 
 twitter_username: mtravi
 github_username:  travi

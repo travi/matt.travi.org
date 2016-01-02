@@ -1,0 +1,20 @@
+{
+  "name": "matt.travi.org",
+  "private": "true",
+  "authors": [
+    "Matt Travi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "3.3.4",
+    "travi.org-theme": "*"
+  },
+  "resolutions": {
+    "jquery": "1.11.x"
+  }
+}

@@ -1,0 +1,5 @@
+dist:
+  options:
+    targetDir: source/resources/thirdparty
+    layout: byComponent
+    cleanUp: false

@@ -4,6 +4,13 @@
 @charset "utf-8";
 
 
+@import
+        "../../bower_components/travi.org-theme/scss/colors",
+        "../../bower_components/travi.org-theme/scss/typography/variables",
+        "bootstrap-custom",
+        "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap",
+        "../../bower_components/travi.org-theme/scss/headings";
+
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
@@ -13,11 +20,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       $text-black;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      $theme-primary;
 
-$grey-color:       #828282;
+$grey-color:       $grey;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 

@@ -16,6 +16,8 @@ openid_provider: "https://pip.verisignlabs.com/server"
 twitter_username: mtravi
 github_username:  travi
 keybase_username: travi
+stackoverflow_username: travi
+linkedin_username: matttravi
 
 # Build settings
 markdown: kramdown

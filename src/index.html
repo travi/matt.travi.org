@@ -2,12 +2,20 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home container-fluid">
+  <div class="row">
 
-    <ul class="social-media-list">
+    <figure class="col-sm-4">
+      <img src="https://secure.gravatar.com/avatar/552ffda146c8a19730e4e9a27dafb749?size=200" class="img-rounded" />
+      <figcaption>
+        <h3>Matt Travi <small>Full Stack Engineer</small></h3>
+      </figcaption>
+    </figure>
+
+    <ul class="social list-group col-sm-8">
 
       {% if site.twitter_username %}
-      <li>
+      <li class="list-group-item">
         <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter Username">
           <span class="icon  icon--twitter">
             <svg viewBox="0 0 16 16">
@@ -21,7 +29,7 @@ layout: default
       {% endif %}
 
       {% if site.github_username %}
-      <li>
+      <li class="list-group-item">
         <a href="https://github.com/{{ site.github_username }}" title="GitHub Username">
           <span class="icon  icon--github">
             <svg viewBox="0 0 16 16">
@@ -35,7 +43,7 @@ layout: default
       {% endif %}
 
       {% if site.keybase_username %}
-      <li>
+      <li class="list-group-item">
         <a href="https://keybase.io/{{ site.keybase_username }}" title="Keybase Username">
           <span class="icon  icon--keybase">
             <svg height="16" width="16" viewBox="0 0 32 32">
@@ -50,4 +58,5 @@ layout: default
 
     </ul>
 
+  </div>
 </div>

@@ -1,0 +1,15 @@
+.social {
+    margin-left: 0;
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    .username {
+      margin-left: 10px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+}

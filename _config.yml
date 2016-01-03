@@ -12,6 +12,7 @@ url: "http://travi.github.io" # the base hostname & protocol for your site
 
 twitter_username: mtravi
 github_username:  travi
+keybase_username: travi
 
 # Build settings
 markdown: kramdown

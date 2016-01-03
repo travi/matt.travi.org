@@ -3,6 +3,10 @@ require 'html/proofer'
 require 'tmpdir'
 # Rake::Jekyll::GitDeployTask.new(:deploy)
 
+destination = 'public'
+
+task :default => [:build]
+
 desc 'Generate site from Travis CI and publish to GitHub Pages.'
 task :travis do
   # if this is a pull request, do a simple build of the site and stop

@@ -10,6 +10,9 @@ source: src
 baseurl: "/matt.travi.org" # the subpath of your site, e.g. /blog/
 url: "http://travi.github.io" # the base hostname & protocol for your site
 
+openid_delegate: "https://travi.pip.verisignlabs.com"
+openid_provider: "https://pip.verisignlabs.com/server"
+
 twitter_username: mtravi
 github_username:  travi
 keybase_username: travi

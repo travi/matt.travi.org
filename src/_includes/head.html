@@ -8,5 +8,7 @@
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Permanent+Marker:regular" />
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="openid2.provider openid.server" href="{{ site.openid_provider }}" />
+    <link rel="openid2.local_id openid.delegate" href="{{ site.openid_delegate }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>

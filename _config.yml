@@ -25,3 +25,4 @@ kramdown:
     input: GFM
 sass:
     style: compressed
+keep_files: [CNAME]

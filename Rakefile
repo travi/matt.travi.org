@@ -8,6 +8,7 @@ desc 'Generate site from Travis CI and publish to GitHub Pages.'
 task :travis do
   Rake::Task["build"].invoke
   Rake::Task["deploy"].invoke
+  sh('git checkout master')
 end
 
 desc 'Generate front-end dependencies'

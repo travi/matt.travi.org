@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/travi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://matt.travi.org
+  * I am travi (https://keybase.io/travi) on keybase.
+  * I have a public key with fingerprint 8AF2 251D 667C E15D A1D3  4EBE 8C17 3646 C24F ED70
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "8af2251d667ce15da1d34ebe8c173646c24fed70",
+            "host": "keybase.io",
+            "key_id": "8c173646c24fed70",
+            "kid": "01010ed776bb184bf0dde4399f5e978cec827b2953338fb09d623e14fed75e4aa98c0a",
+            "uid": "7ac335cfad2b42ffbdcb10aa35d9ac00",
+            "username": "travi"
+        },
+        "service": {
+            "hostname": "matt.travi.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1437015835,
+    "expire_in": 157680000,
+    "prev": "cbfb781fde43b98e76ad10f0d0d2ac8a83b9a99b4e6301f80ae883ab34bdf6de",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.20
+Comment: https://keybase.io/crypto
+
+yMIeAnicZZJrSBRRFMd3M4ukMpFCsocNGIWLzcydx52ViKA+9EDQKEKC9d65d9Zp
+c2ednd00kx4SifShUKLwQ0pLktZSgfagMssSkshUpAdpDyoioqjoLXZnqU/d++Fy
+z/n/f+eew+2blebJ8A7g0pbxoWPN3oHe1THP5vbFubUctkgN56/lQjR1GGY4SO2I
+bYYdzs9BZIiiLBBFUXUqyAQJBEgUU6gLKlAkRRclgxKV53xchRV1HQyDUZQWmhaL
+sUvAJC7nf30oleAFtllEVTAWoIQNnhAqAU0zZKqpUKc6FFUsajIAABqY14giAiqk
+KDKVENKgziOGi6VwKtIBkHUDERFLomFgomOBRwjIREM679aNRakdRpWUqR0bxU2u
+zsexUNzUqdu/28bfdCVynMKUptCyg8wasS3H0q0dLFfhOJGo3/U6NRFXvJPiwF9M
+AJthwsbIHHFqR00rzPkFptQd0+UKElB5QYZA9nG0OmLaNGC6CllVIM+WW4fGGVLH
+BlahYLgDwRqkqoKIwLMJ8UREOkSQRZGmYYkqgBcMyCMKIUAYSJgYCqGc21hV2GJs
+wN6JgowZNYNh5MRsytXdvLFtqseb4ZmWPsX9CZ6MGXP+/Y/awemTFTm7G/iiotLh
+F7vWJL0LfiWFrY1Va4bg6y2ZZcG8kvEzX8fWr8y3DrSkNTx5VnB9v6+pZ+2+E2nL
+W/Cibu7CWPxHdCkq77yX/al9dOj+xZ7zp6tv249+3aWJ4tb6WOjap4VHX94rQXv3
+3Klc+Gr/4ezWGHr4+3hi5EvH4iVd9V2dJRPf8r8PkM5+u2liX9vTngORxIf+x0ez
+GlbMTPiKzN75gx05A762zKaN75pHigty0clbfWeudPiXnf24tnR6Iu3+zxMlm95O
+dn2+ua4+mX657FJV7/Zw+pMHs5vn1m1YVa4fGs0L2ac63zSOnEtm0YPVlcN5e7qf
+v8++OtzQQ+apO478AYAINPY=
+=anOd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/travi
+
+==================================================================

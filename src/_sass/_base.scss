@@ -27,7 +27,7 @@ body {
   font-size: $base-font-size;
   font-weight: 300;
   line-height: $base-line-height;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 // Set `margin-bottom` to maintain vertical rhythm
@@ -118,7 +118,7 @@ blockquote {
 // Code formatting
 pre,
 code {
-  background-color: #eef;
+  background-color: $code-background-color;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   font-size: 15px;

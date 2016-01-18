@@ -1,19 +1,19 @@
 .social {
-    margin: 0 auto;
+  margin: 0 auto;
 
-    ul {
-      margin-left: 0;
+  ul {
+    margin-left: 0;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .username {
+    margin-left: 10px;
+
+    &:hover {
+      text-decoration: underline;
     }
-
-    a:hover {
-      text-decoration: none;
-    }
-
-    .username {
-      margin-left: 10px;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+  }
 }

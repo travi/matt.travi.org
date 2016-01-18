@@ -7,7 +7,9 @@ install:
   - npm install -g grunt-cli
   - npm install
 
-script: bundle exec rake travis
+script: bundle exec rake
+
+after_success: bundle exec rake travis
 
 env:
   global:

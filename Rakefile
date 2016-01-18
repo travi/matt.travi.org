@@ -2,7 +2,7 @@ require 'rake-jekyll'
 require 'html/proofer'
 Rake::Jekyll::GitDeployTask.new(:deploy)
 
-task :default => [:build]
+task :default => [:lint]
 
 desc 'Generate site from Travis CI and publish to GitHub Pages.'
 task :travis do
@@ -18,6 +18,7 @@ end
 
 desc 'Lint the code'
 task :lint do
+  sh('grunt lint')
   HTML::Proofer.new(
     "./_site",
     {

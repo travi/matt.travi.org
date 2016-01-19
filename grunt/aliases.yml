@@ -1,3 +1,5 @@
 lint: scsslint
 
 build: bower
+
+default: lint

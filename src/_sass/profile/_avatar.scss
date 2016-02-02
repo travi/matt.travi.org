@@ -1,7 +1,16 @@
+$avatar-size: 200px;
+
 figure img {
-  margin-bottom: 10px;
+  height: $avatar-size;
+  margin: 0 auto 20px;
+  width: $avatar-size;
 }
 
-figcaption small {
-  display: block;
+figcaption {
+  margin: 0 auto;
+  width: $avatar-size;
+
+  small {
+    display: block;
+  }
 }

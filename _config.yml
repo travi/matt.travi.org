@@ -10,8 +10,8 @@ source: src
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://matt.travi.org" # the base hostname & protocol for your site
 
-openid_delegate: "https://travi.pip.verisignlabs.com"
-openid_provider: "https://pip.verisignlabs.com/server"
+openid_delegate: "https://openid.stackexchange.com/user/a6d16373-8349-445f-8fbd-39f257655296"
+openid_provider: "https://openid.stackexchange.com/openid/provider"
 
 twitter_username: mtravi
 github_username:  travi

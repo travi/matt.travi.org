@@ -19,15 +19,5 @@ end
 desc 'Lint the code'
 task :lint do
   sh('grunt lint')
-  HTML::Proofer.new(
-    "./_site",
-    {
-      :href_ignore => ['http://localhost:4000'],
-      :href_swap => {
-          %r{^/matt.travi.org} => ''
-      },
-      :verbose => true,
-      :check_html => true
-    }
-  ).run
+  HTMLProofer.check_directory("./_site", {:only_4xx => true}).run
 end

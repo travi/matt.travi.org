@@ -1,5 +1,5 @@
 require 'rake-jekyll'
-require 'html/proofer'
+require 'html-proofer'
 Rake::Jekyll::GitDeployTask.new(:deploy)
 
 task :default => [:lint]

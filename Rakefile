@@ -1,5 +1,6 @@
 require 'rake-jekyll'
 require 'html-proofer'
+require 'rake/file_list'
 require 'scss_lint/rake_task'
 Rake::Jekyll::GitDeployTask.new(:deploy)
 
@@ -7,7 +8,7 @@ task :default => [:lint]
 
 SCSSLint::RakeTask.new do |t|
   t.config = '_config.yml'
-  t.files = Dir.glob(['src/_sass/**/*.scss', '!src/_sass/_syntax-highlighting.scss'])
+  t.files = Rake::FileList['src/_sass/**/*.scss'].exclude('src/_sass/_syntax-highlighting.scss')
 end
 
 desc 'Generate site from Travis CI and publish to GitHub Pages.'

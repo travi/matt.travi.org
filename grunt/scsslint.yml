@@ -1,5 +1,0 @@
-allFiles:
-  - 'src/_sass/**/*.scss'
-  - '!src/_sass/_syntax-highlighting.scss'
-options:
-  colorizeOutput: true

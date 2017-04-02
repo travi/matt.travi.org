@@ -7,7 +7,6 @@ task :default => [:lint]
 
 SCSSLint::RakeTask.new do |t|
   t.config = '_config.yml'
-  t.args = ['--config']
   t.files = Dir.glob(['src/_sass/**/*.scss', '!src/_sass/_syntax-highlighting.scss'])
 end
 

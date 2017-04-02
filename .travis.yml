@@ -11,7 +11,10 @@ install:
 
 script: bundle exec rake
 
-after_success: bundle exec rake travis
+after_success:
+  - git config --global user.name "$GIT_NAME"
+  - git config --global user.email "$GIT_EMAIL"
+  - bundle exec rake travis
 
 env:
   global:

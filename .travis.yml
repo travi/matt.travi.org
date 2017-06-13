@@ -16,12 +16,12 @@ after_success:
   - git config --global user.email "$GIT_EMAIL"
   - bundle exec rake travis
 
-env:
-  global:
-    secure: FrsG8gvP6DdabVugift81EWLIooGSi0axOBoVwMeuAwVqZP+x2QrdrJp/mtka5uJbIvODpOQqqu+Pxa8QYdGjFqg2ay31TLNDQLhuFk8y4V5jJw+vT/DmC4vcL/pmx+R1+bKMVAP1qY4c24QuVhwwekcztHHscfnSi3XsnIn7es=
-
 sudo: false
 
 branches:
   only:
     - master
+
+env:
+  global:
+    secure: OZz7QJhBV4FDOJrnq85hJbxhZ3pENNQ3gtQNi/DfSaP8kzpE3gxGtI5fP/gzlBtqwqxWSDCWIec0kVUVqpN9wkehhZcLQjtkfqW5ZFHWihjXSs6rhXT4HSwI5zDqF0dZuF0Es6Pn+5LVoe1MHbRXTXA944WU6xJgQuIwispVd0A=

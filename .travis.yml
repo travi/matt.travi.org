@@ -21,6 +21,7 @@ sudo: false
 branches:
   only:
     - master
+    - /^greenkeeper/.*$/
 
 env:
   global:
